@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dta2xlsx"
+version = "0.1.0"
+description = "Tool to convert stata .dta file to .xlsx file"
+authors = ["Steve Bickley"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+pyreadstat = "^1.2.7"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
