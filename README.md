@@ -1,17 +1,13 @@
 # dta2xlsx
-Tool to convert stata .dta file to .xlsx file
+Simple tool to convert stata .dta file to .xlsx file
 
 ## Preparation
  
-# Navigate to the folder
-
-```cd ./stevejbickley/dta2xlsx```
-
-OR
+### Navigate to the folder
 
 ```cd ./dta2xlsx```
 
-# Clone the project and run the following commands:
+### Clone the project and run the following commands:
 
 ```poetry env use path_to_pyevn_python_version```
 
@@ -24,7 +20,7 @@ Activate the virtual environment if needed:
 ```source .venv/bin/activate```
 
 
-# Next, run the following to update poetry and install ffmpeg (if required):
+### Next, run the following to update poetry and install ffmpeg (if required):
 
 ```poetry update```
 
@@ -38,17 +34,17 @@ Running Python and Scripts:
 
 ```poetry run python script.py```
 
-# Note: ffmpeg is open-source suite of libraries and programs for handling video, audio, and other multimedia files and streams
+Note: ffmpeg is open-source suite of libraries and programs for handling video, audio, and other multimedia files and streams
 
 
 ## Creating your own poetry environment
 
-# To create new poetry project (if required):
+### To create new poetry project (if required):
 
 ```poetry new dta2xlsx```
 
 
-# Initialize the existing directory (if required):
+### Initialize the existing directory (if required):
 
 ```poetry init```
 
